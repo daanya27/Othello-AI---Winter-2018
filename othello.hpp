@@ -1,7 +1,7 @@
 # ifndef DSAOTHELLO_HPP
 # define DSAOTHELLO_HPP
 
-# include "OthelloAI.hpp"
+# include "OthelloAI.hpp" // provided
 # include <vector>
 
 using namespace std;
@@ -9,7 +9,7 @@ using namespace std;
 namespace anandds
 {
 
-  class DSAOthello : public OthelloAI
+  class DSAOthello : public OthelloAI  // OthelloAI base class provided. DSAOthello creates AI algorithm to play game. 
   {
     
   public:
